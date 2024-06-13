@@ -84,8 +84,8 @@ random_string = generate_random_string(N=7)
 queue_name = f"xfaas-logging-queue-{random_string}"
 
 location = "centralindia"
-resource = "xfaasQueues"
-storage_account_name = 'xfaasstorage'
+resource = "xfaasQueues1"
+storage_account_name = 'xfaasstorage17'
 
 queue_details = set_up()
 
